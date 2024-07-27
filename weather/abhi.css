@@ -1,0 +1,29 @@
+#main{
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.box{
+    width: 320px;
+    height: 100px;
+    border:1px solid red;
+    scroll-behavior: smooth;
+    direction: ltr;  
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2000px;
+}
+
+.box1{
+    
+        width: 320px;
+        height: 100px;
+        border:1px solid red;
+        overflow: scroll;
+        direction: ltr; 
+        text-align: center; 
+        justify-content: center;
+      }
